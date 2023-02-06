@@ -22,11 +22,22 @@ With the click of a single button you can access ChatGPT's awesome natural langu
 <!-- INSTRUCTIONS -->
 ## 3. Instructions
 
-There are 4 basic steps in order to add a ChatGPT button into Microsoft Word
+<br /><br />
+
+<!-- Installation -->
+## 4. Installation
+
+<br /><br />
+There are 4 basic steps in order to add a ChatGPT button into Microsoft Word:
+  1. Enable the Developer Tab
+  2. Import the VBA script file
+  3. Add your OpenAI APIKey
+  4. Create the ChatGPT button 
+<br />
 
 <br /><br />
 
-### 3.1 Enable the Developer Tab
+### 4.1 Enable the Developer Tab
 
 The Developer tab isn't displayed by default, but you can add it to the ribbon.
 
@@ -42,7 +53,7 @@ The latest instructions to enable the Developer Tab from Microsoft can be found 
 
 <br /><br />
 
-### 3.2 Import the ChatgptTextCompletion.bas file
+### 4.2 Import the ChatgptTextCompletion.bas file
 
 **Step 1** - Download and Save the latest ChatgptTextCompletion.bas file from this repository.
 <br />
@@ -64,7 +75,7 @@ Keep the location of where the file is saved as you will need it later.<br />
 
 <br /><br />
 
-### 3.3 Add your OpenAI APIKey into the ChatgptTextCompletion.bas file
+### 4.3 Add your OpenAI APIKey into the ChatgptTextCompletion.bas file
 
 **Step 1** - In the Project window (top left hand side) double click on the ChatgptTextCompletion Module.
 <br />
@@ -76,7 +87,7 @@ Keep the location of where the file is saved as you will need it later.<br />
 Please ensure that you APIKEY is surrounded by double quotation marks such as <strong>"</strong>sk-1234....sErtV3<strong>"</strong>
 <br /><br />
 
-### 3.4 Add your ChatGPT button into the Microsoft Word Ribbon
+### 4.4 Add your ChatGPT button into the Microsoft Word Ribbon
 
 **Step 1** - Add a new tab
 <br />
@@ -117,3 +128,5 @@ After the preceding steps have been completed the Microsoft Word screen should l
 
 <img src=".github/assets/images/screen-after-chatgpt-button-added.png" width=100% height=100%>
 <br />
+
+
