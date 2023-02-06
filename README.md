@@ -73,4 +73,16 @@ Keep the location of where the file is saved as you will need it later.<br />
 
 <img src=".github/assets/images/visual-basic-add-apikey-section.png" width=100% height=100%>
 <br />
+Please ensure that you APIKEY is surrounded by double quotation marks such as "sk-1234....sErtV3"
+<br /><br />
 
+### 3.4 Add your ChatGPT button into the Microsoft Word Ribbon
+
+*Step 1* - Add a new tab
+<br />
+  - On the File tab, go to Options > Customize Ribbon
+  - Click New Tab
+<br />
+
+<img src=".github/assets/images/options-customize-ribbon-new-tab.png" width=50% height=50%>
+<br />
