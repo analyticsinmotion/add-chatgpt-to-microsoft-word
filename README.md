@@ -86,3 +86,12 @@ Please ensure that you APIKEY is surrounded by double quotation marks such as "s
 
 <img src=".github/assets/images/options-customize-ribbon-new-tab.png" width=50% height=50%>
 <br />
+
+  - Rename the New Tab to AI Assistant
+
+<img src=".github/assets/images/options-customize-ribbon-rename-tab.png" width=35% height=35%>
+<br />
+
+
+
+
