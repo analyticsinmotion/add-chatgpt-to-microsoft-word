@@ -22,7 +22,34 @@ With the click of a single button you can access ChatGPT's awesome natural langu
 <!-- INSTRUCTIONS -->
 ## 3. Instructions
 
+  - Write the text you want to send to ChatGPT anywhere in Microsoft Word
+  - Wait a few seconds for ChatGPT to repsond
+  - The text completion results will appear under initial request text
 <br /><br />
+
+### 3.1 Text Completion Example 1
+
+User Input
+```
+What are the benefits of generative AI models?
+```
+
+ChatGPT Output
+
+<img src=".github/assets/images/chatgpt-results-1.png" width=100% height=100%>
+<br />
+
+### 3.2 Text Completion Example 2
+
+User Input
+```
+Are aliens real?
+```
+
+ChatGPT Output
+
+<img src=".github/assets/images/chatgpt-results-2.png" width=100% height=100%>
+<br />
 
 <!-- Installation -->
 ## 4. Installation
