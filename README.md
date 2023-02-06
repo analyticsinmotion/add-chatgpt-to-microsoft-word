@@ -8,6 +8,7 @@ How to add ChatGPT's Text Completion functionality to Microsoft Word.
 <!-- DESCRIPTION -->
 ## 1. Description
 
+With the click of a single button you can access ChatGPT's awesome natural language capabilies in Microsoft Word
 <br /><br />
 
 <!-- GETTING STARTED -->
@@ -33,5 +34,29 @@ The Developer tab isn't displayed by default, but you can add it to the ribbon.
 
 *Step 2* - Under Customize the Ribbon and under Main Tabs, select the Developer check box.
 
+<img src=".github/assets/images/enable-developer-tab-highlighted.png" width=100% height=100%>
+
+The latest instructions to enable the Developer Tab from Microsoft can be found here: 
 <a href="https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792">https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word</a>
+
+<br /><br />
+
+### 3.2 Import the ChatgptTextCompletion.bas file
+
+*Step 1* - Download and Save the latest ChatgptTextCompletion.bas file from this repository.
+<br />
+
+Keep the location of where the file is saved as you will need it later.
+
+*Step 2* - On the Developer tab, click the Visual Basic button.
+
+*Step 3* - On the File tab, go to Import File...
+
+*Step 4* - Select the ChatgptTextCompletion.bas file and click Open
+
+<br /><br />
+
+### 3.3 Add your OpenAI APIKey into the ChatgptTextCompletion.bas file
+
+*Step 1* - In the Project window (Top left hand side) double click on the ChatgptTextCompletion Module
 
