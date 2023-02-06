@@ -154,4 +154,11 @@ After the preceding steps have been completed the Microsoft Word screen should l
 <img src=".github/assets/images/screen-after-chatgpt-button-added.png" width=100% height=100%>
 <br />
 
+<!-- Best Practices for API Key Safety -->
+## 5. Best Practices for API Key Safety
 
+Your OpenAI APIKEY key/s should be kept secure and private at all times.
+
+Please follow the best practices guide for API security from OpenAI 
+<br />
+<a href="https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety">https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety</a>
