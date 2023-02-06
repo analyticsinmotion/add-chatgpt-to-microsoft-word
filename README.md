@@ -27,14 +27,13 @@ With the click of a single button you can access ChatGPT's awesome natural langu
 <!-- Installation -->
 ## 4. Installation
 
-<br /><br />
 There are 4 basic steps in order to add a ChatGPT button into Microsoft Word:
   1. Enable the Developer Tab
   2. Import the VBA script file
   3. Add your OpenAI APIKey
   4. Create the ChatGPT button 
-<br />
 
+Each of these steps are fully outlined below. 
 <br /><br />
 
 ### 4.1 Enable the Developer Tab
@@ -50,7 +49,6 @@ The Developer tab isn't displayed by default, but you can add it to the ribbon.
 
 The latest instructions to enable the Developer Tab from Microsoft can be found here: 
 <a href="https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792">https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792</a>
-
 <br /><br />
 
 ### 4.2 Import the ChatgptTextCompletion.bas file
@@ -72,7 +70,6 @@ Keep the location of where the file is saved as you will need it later.<br />
 <br />
 
 **Step 4** - Select the ChatgptTextCompletion.bas file and click Open
-
 <br /><br />
 
 ### 4.3 Add your OpenAI APIKey into the ChatgptTextCompletion.bas file
