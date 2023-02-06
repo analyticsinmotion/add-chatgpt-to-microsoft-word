@@ -23,7 +23,8 @@ With the click of a single button you can access ChatGPT's awesome natural langu
 ## 3. Instructions
 
   - Write the text you want to send to ChatGPT anywhere in Microsoft Word
-  - Wait a few seconds for ChatGPT to repsond
+  - Click the Text Completion button in the AI Assistant tab
+  - Wait a few seconds for ChatGPT to respond
   - The text completion results will appear under initial request text
 <br /><br />
 
