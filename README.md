@@ -10,6 +10,7 @@ How to add ChatGPT's Text Completion functionality to Microsoft Word.
 ![](https://img.shields.io/badge/Maintained%3F-yes-green.svg)&nbsp;&nbsp;
 ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)&nbsp;&nbsp;
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?logo=microsoft-word&logoColor=white)&nbsp;&nbsp;
+[![Documentation Status](https://readthedocs.org/projects/add-chatgpt-to-microsoft-word/badge/?version=latest)](https://add-chatgpt-to-microsoft-word.readthedocs.io/en/latest/?badge=latest)&nbsp;&nbsp;
 <!-- badges: end -->
 
 <!-- DESCRIPTION -->
