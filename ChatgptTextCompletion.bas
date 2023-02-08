@@ -39,6 +39,12 @@ Sub TextCompletion()
 
     strResponse = .ResponseText
     
+    If Mid(strResponse, 6, 5) = "error" Then
+      MsgBox Prompt:="The server had an error while processing your request. Sorry about that! Please try again"
+      Exit Sub
+    End If
+    
+
     Dim intStartPos As Integer
     intStartPos = InStr(1, strResponse, Chr(34) & "text" & Chr(34)) + 12
     
@@ -50,21 +56,22 @@ Sub TextCompletion()
     
     Dim strOutput As String
     strOutput = Mid(strResponse, intStartPos, intLength)
+
     
-    Dim strOutputFomatted() As String
-    strOutputFomatted = Split(strOutput, "\n\n")
-    
-    For Each ArrayResult In strOutputFomatted
-      Selection.MoveDown Unit:=wdParagraph, Count:=1
-      Selection.InsertAfter ArrayResult
-      Selection.Font.Name = "Courier New"
-      Selection.Font.Size = 9
-      Selection.Font.ColorIndex = wdViolet
-      Selection.Paragraphs.Alignment = wdAlignParagraphJustify
-    Next ArrayResult
+    Dim strOutputFormatted As String, strOutputFormatted1 As String, strOutputFormatted2 As String
+    strOutputFormatted1 = Replace(strOutput, "\n\n", vbCrLf)
+    strOutputFormatted2 = Replace(strOutputFormatted1, "\n", vbCrLf)
+    strOutputFormatted = strOutputFormatted2
     
     Selection.Collapse Direction:=wdCollapseEnd
-    Selection.MoveDown Unit:=wdParagraph, Count:=1
+    Selection.InsertAfter vbCr & strOutputFormatted
+    Selection.Font.Name = "Courier New"
+    Selection.Font.Size = 9
+    Selection.Font.ColorIndex = wdViolet
+    Selection.Paragraphs.Alignment = wdAlignParagraphJustify
+    Selection.InsertAfter vbCr
+    Selection.Collapse Direction:=wdCollapseEnd
+    
 
   End With
   
