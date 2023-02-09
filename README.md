@@ -19,6 +19,12 @@ How to add ChatGPT's Text Completion functionality to Microsoft Word.
 With the click of a single button you can access ChatGPT's awesome natural language capabilies in Microsoft Word
 <br /><br />
 
+
+
+https://user-images.githubusercontent.com/52817125/217731672-a67d1e29-f78f-49f9-83bf-c0342badc5f4.mp4
+
+<br />
+
 <!-- GETTING STARTED -->
 ## 2. Getting Started
 ### 2.1 Dependencies
