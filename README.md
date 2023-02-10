@@ -116,7 +116,7 @@ Keep the location of where the file is saved as you will need it later.<br />
 
 ### 4.3 Add your OpenAI APIKey into Windows
 
-**Step 1** - Open the Start menu and start typeing "environment variables". When the best match appears click "Edit the system environment variables" result.
+**Step 1** - Open the Start menu and start typing "environment variables". When the best match appears click "Edit the system environment variables" result.
 
 <img src=".github/assets/images/add-env-var-step-1.png" width=75% height=75%>
 <br />
