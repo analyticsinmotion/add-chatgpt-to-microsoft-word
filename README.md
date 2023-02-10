@@ -114,16 +114,29 @@ Keep the location of where the file is saved as you will need it later.<br />
 **Step 4** - Select the ChatgptTextCompletion.bas file and click Open
 <br /><br />
 
-### 4.3 Add your OpenAI APIKey into the ChatgptTextCompletion.bas file
+### 4.3 Add your OpenAI APIKey into Windows
 
-**Step 1** - In the Project window (top left hand side) double click on the ChatgptTextCompletion Module.
+**Step 1** - Open the Start menu and start typeing "environment variables". When the best match appears click "Edit the system environment variables" result.
+
+<img src=".github/assets/images/add-env-var-step-1.png" width=75% height=75%>
 <br />
 
-**Step 2** - Replace the highlighted XX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX with your APIKEY.
+**Step 2** - Click the "Environment variables" button under the "Advanced" tab.
 
-<img src=".github/assets/images/visual-basic-add-apikey-section.png" width=100% height=100%>
+<img src=".github/assets/images/add-env-var-step-2.png" width=50% height=50%>
 <br />
-Please ensure that you APIKEY is surrounded by double quotation marks such as <strong>"</strong>sk-1234....sErtV3<strong>"</strong>
+
+**Step 3** - Create a new user variable by clicking "New" under the "User Variables" section.
+
+<img src=".github/assets/images/add-env-var-step-3.png" width=50% height=50%>
+<br />
+
+**Step 4** - Type the variable name **OPENAI_API_KEY** in the first field and your OpenAI APIKEY in the variable value field. Then click OK.
+
+<img src=".github/assets/images/add-env-var-step-4.png" width=50% height=50%>
+<br />
+
+**Step 5** - **IMPORTANT** You must restart Windows to apply the new environment variable
 <br /><br />
 
 ### 4.4 Add your ChatGPT button into the Microsoft Word Ribbon
