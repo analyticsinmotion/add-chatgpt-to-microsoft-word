@@ -21,7 +21,7 @@ Sub TextCompletion()
   Dim objCurlHttp As Object
   Dim strJSONdata As String
 
-  strAPIKey = "XX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  strAPIKey = Environ("OPENAI_API_KEY")
   
   strURL = "https://api.openai.com/v1/completions"
   strModel = "text-davinci-003"
