@@ -48,6 +48,11 @@ Sub TextCompletion()
     Dim intStartPos As Integer
     intStartPos = InStr(1, strResponse, Chr(34) & "text" & Chr(34)) + 12
     
+    If intStartPos = 12 Then
+      MsgBox Prompt:="ChatGPT is at capacity right now. Please wait a minute and try again."
+      Exit Sub
+    End If
+    
     Dim intEndPos As Integer
     intEndPos = InStr(1, strResponse, Chr(34) & "index" & Chr(34)) - 2
     
