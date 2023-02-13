@@ -21,7 +21,9 @@ With the click of a single button you can access ChatGPT's awesome natural langu
 
 
 
-https://user-images.githubusercontent.com/52817125/217731672-a67d1e29-f78f-49f9-83bf-c0342badc5f4.mp4
+https://user-images.githubusercontent.com/52817125/218468803-5cdfbda3-4a5f-4d74-aaec-2a136e9b7956.mp4
+
+
 
 <br />
 
