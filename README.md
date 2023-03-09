@@ -74,8 +74,8 @@ ChatGPT Output
 There are 4 basic steps in order to add a ChatGPT button into Microsoft Word:
   1. Enable the Developer Tab
   2. Import the VBA script file
-  3. Add your OpenAI APIKey
-  4. Create the ChatGPT button 
+  3. Create the ChatGPT button 
+  4. Add your OpenAI APIKey
 
 Each of these steps are fully outlined below. 
 <br /><br />
@@ -116,32 +116,7 @@ Keep the location of where the file is saved as you will need it later.<br />
 **Step 4** - Select the ChatgptTextCompletion.bas file and click Open
 <br /><br />
 
-### 4.3 Add your OpenAI APIKey into Windows
-
-**Step 1** - Open the Start menu and start typing "environment variables". When the best match appears click "Edit the system environment variables" result.
-
-<img src=".github/assets/images/add-env-var-step-1.png" width=75% height=75%>
-<br />
-
-**Step 2** - Click the "Environment variables" button under the "Advanced" tab.
-
-<img src=".github/assets/images/add-env-var-step-2.png" width=50% height=50%>
-<br />
-
-**Step 3** - Create a new user variable by clicking "New" under the "User Variables" section.
-
-<img src=".github/assets/images/add-env-var-step-3.png" width=50% height=50%>
-<br />
-
-**Step 4** - Type the variable name **OPENAI_API_KEY** in the first field and your OpenAI APIKEY in the variable value field. Then click OK.
-
-<img src=".github/assets/images/add-env-var-step-4.png" width=50% height=50%>
-<br />
-
-**Step 5** - **IMPORTANT** You must restart Windows to apply the new environment variable
-<br /><br />
-
-### 4.4 Add your ChatGPT button into the Microsoft Word Ribbon
+### 4.3 Add your ChatGPT button into the Microsoft Word Ribbon
 
 **Step 1** - Add a new tab
 <br />
@@ -182,6 +157,34 @@ After the preceding steps have been completed the Microsoft Word screen should l
 
 <img src=".github/assets/images/screen-after-chatgpt-button-added.png" width=100% height=100%>
 <br />
+
+### 4.4 Add your OpenAI APIKey into Windows
+
+**Step 1** - Open the Start menu and start typing "environment variables". When the best match appears click "Edit the system environment variables" result.
+
+<img src=".github/assets/images/add-env-var-step-1.png" width=75% height=75%>
+<br />
+
+**Step 2** - Click the "Environment variables" button under the "Advanced" tab.
+
+<img src=".github/assets/images/add-env-var-step-2.png" width=50% height=50%>
+<br />
+
+**Step 3** - Create a new user variable by clicking "New" under the "User Variables" section.
+
+<img src=".github/assets/images/add-env-var-step-3.png" width=50% height=50%>
+<br />
+
+**Step 4** - Type the variable name **OPENAI_API_KEY** in the first field and your OpenAI APIKEY in the variable value field. Then click OK.
+
+<img src=".github/assets/images/add-env-var-step-4.png" width=50% height=50%>
+<br />
+
+**Step 5** - **IMPORTANT** You must restart Windows to apply the new environment variable
+<br /><br />
+
+
+
 
 <!-- Best Practices for API Key Safety -->
 ## 5. Best Practices for API Key Safety
