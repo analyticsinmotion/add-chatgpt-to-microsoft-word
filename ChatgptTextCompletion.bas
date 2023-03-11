@@ -1,7 +1,7 @@
 Attribute VB_Name = "ChatGPT"
 Sub TextCompletion()
 '
-' Text Completion Macro
+  ' Text Completion Macro - Version 0.1.3
 '
 '
   If Selection.Type = wdSelectionIP Then
