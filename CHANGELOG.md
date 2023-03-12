@@ -9,7 +9,7 @@ It is organized by version and release date followed by a list of Enhancements, 
 
 ### Bug Fix
 
-  - Added additional error handling for when ChatGPT is at capacity. When this occurs an Alert Message will display on the screen rather than a Run-time Error 5 message from Microsoft Visual Basic
+  - Added additional error handling for when ChatGPT is at capacity. When this occurs an Alert Message will display on the screen rather than a Run-time Error 5 message from Microsoft Visual Basic. See <a href="https://github.com/analyticsinmotion/add-chatgpt-to-microsoft-word/issues/2">Issues #2</a> for more details.
 
 
 <br /><br />
