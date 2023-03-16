@@ -196,3 +196,22 @@ Your OpenAI APIKEY key/s should be kept secure and private at all times.
 Please follow the best practices guide for API security from OpenAI 
 <br />
 <a href="https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety">https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety</a>
+
+
+<br /><br />
+
+
+
+
+<!-- Related Projects -->
+## 6. Related Projects
+
+This repository closely relates to two of our other projects: 
+ - **Add GPT Chat to Microsoft Word** - Create a powerful chatbot in Microsoft Word using ChatGPT<br />
+ More information on this project can be found at <a href="https://github.com/analyticsinmotion/add-gpt-chatbot-to-microsoft-word">https://github.com/analyticsinmotion/add-gpt-chatbot-to-microsoft-word</a> 
+ 
+ - **Create ChatGPT Images in Microsoft Word** - How to add ChatGPT's Image Generation capability to Microsoft Word<br />
+ More information on this project can be found at <a href="https://github.com/analyticsinmotion/create-chatgpt-images-in-microsoft-word">https://github.com/analyticsinmotion/create-chatgpt-images-in-microsoft-word</a> 
+
+
+
