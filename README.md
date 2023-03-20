@@ -1,4 +1,5 @@
-# Add ChatGPT to Microsoft Word
+# :dark_sunglasses: Add ChatGPT to Microsoft Word &nbsp;[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=How%20to%20add%20ChatGPT's%20Text%20Completion%20functionality%20to%20Microsoft%20Word.&url=https://github.com/analyticsinmotion/add-chatgpt-to-microsoft-word&via=analyticsmotion&hashtags=chatgpt,openai,Microsoft365,davinci)
+
 How to add ChatGPT's Text Completion functionality to Microsoft Word.
 <br /><br />
 
