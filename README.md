@@ -211,8 +211,8 @@ This repository closely relates to two of our other projects:
  - **Add GPT Chat to Microsoft Word** - Create a powerful chatbot in Microsoft Word using ChatGPT<br />
  More information on this project can be found at <a href="https://github.com/analyticsinmotion/add-gpt-chatbot-to-microsoft-word">https://github.com/analyticsinmotion/add-gpt-chatbot-to-microsoft-word</a> 
  
- - **Create ChatGPT Images in Microsoft Word** - How to add ChatGPT's Image Generation capability to Microsoft Word<br />
- More information on this project can be found at <a href="https://github.com/analyticsinmotion/create-chatgpt-images-in-microsoft-word">https://github.com/analyticsinmotion/create-chatgpt-images-in-microsoft-word</a> 
+ - **Create Images with DALL·E in Microsoft Word** - How to add OpenAI's Image Generation capability (DALL·E 2) to Microsoft Word<br />
+ More information on this project can be found at <a href="https://github.com/analyticsinmotion/create-images-with-dall-e-in-microsoft-word">https://github.com/analyticsinmotion/create-images-with-dall-e-in-microsoft-word</a> 
 
 
 
